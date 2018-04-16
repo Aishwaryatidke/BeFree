@@ -1,0 +1,143 @@
+<!DOCTYPE html> 
+<html>
+	<head> 
+		<meta charset="utf-8" />
+		<title>Create a better FAQ page</title> 
+		<link rel="stylesheet" href="style.css" /> 
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script src="jquery.scrollTo-1.4.2-min.js"></script>
+		<script src="jquery.localscroll-1.2.7-min.js"></script>
+		<!-- Resources Used 
+		--> 
+		<script>
+			$(document).ready(function () {  
+
+				var sidebar = $('#sidebar_content');
+				var top = sidebar.offset().top - parseFloat(sidebar.css('marginTop'));
+
+				$(window).scroll(function (event) {
+					var ypos = $(this).scrollTop();
+					if (ypos >= top) {
+						sidebar.addClass('fixed');
+					}
+					else {
+						sidebar.removeClass('fixed');
+					}
+				});
+
+				$.localScroll();
+				
+			});
+			
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<h1 id="title">KNOW YOUR ANSWERS</h1>
+			<hr>
+			<div id="primary">
+				<h3 id="1">PERIODS IRREGULAR? KNOW YOUR ANSWERS</h3>
+				<ul class="section_menu">
+					<li><a href="#1_1">1.	How many days have a normal menstrual cycle?</a></li><br>
+					<li><a href="#1_2">2.	What are the main causes menstruation delayed?</a></li><br>
+					<li><a href="#1_3">3.	How long does it take to get regular menstruation during adolescence?.</a></li><br>
+					<li><a href="#1_4"> 4.	It is possible to delay menstruation on purpose? </a></li><br>
+					<li><a href="#1_5">5.	My period is late and pregnancy tests are negative. What to do? </a></li><br>
+					<li><a href="#1_6">6.   I have read the reasons that might prevent some women to have their period regularly. I don't find anything that it would stop me from having my period every moth yet I am irregular. I had the pills for 4 years in which since them I had my period every 28 days. Now I want to have children and the first month that I stopped the pills, I did not get my period. It there anything I can take or do to regularize my cycle?</a></li><br>
+					<li><a href="#1_7">7.   I am 14 and I still don't have my period. I am very worried because my mom got hers when she was 11 and my older sister got hers when she was 12. I am very worried that something is wrong with me, like i am sterile or something! Is it possible that I could be a late bloomer even though my mom wasn't? </a></li>
+				</ul>
+				<dl class="faq">
+				  <dt id="1_1">1.	How many days have a normal menstrual cycle?</dt>
+				    <dd>In most cases, the menstrual cycle has between 28 and 35 days. However, they are still considered normal menstrual cycles that have between 24 and 38 days of interval. </dd>
+				  <dt id="1_2">2.	What are the main causes menstruation delayed?</dt>
+				    <dd>The main cause of missed period is pregnancy. However, this obviously does not mean that all late period is caused by an ongoing pregnancy. There are many other causes for menstrual delay, such as infections, medications, stress, significant changes in body weight, hormonal changes, etc</dt>
+				  <dt id="1_3">3.	How long does it take to get regular menstruation during adolescence?</dt>
+				    <dd>In general, in the first years after menarche, menstrual cycle of girls is very irregular because ovulation occurs very erratically. In the first year, about half of anovulatory cycles are, i.e. without the occurrence of ovulation. This causes menstruation may take 40 or more days to return. Three years after menarche, about 95% of women already with more or less regulated menstrual cycle. However, variations may still occur to 5 or 7 years after the onset of menses.</dt>
+				   <dt id="1_3">4.	It is possible to delay menstruation on purpose? </dt>
+				     <dd>Yes, there are artificial ways to slow the descent of menstruation. If you have a trip, a race, a competition or any other event that may be hindered by menstruation, talk to your gynaecologist as there are ways to delay menstruation without causing health problems</dt>
+				   <dt id="1_3">5.	My period is late and pregnancy tests are negative. What to do?  </dt>
+				      <dd>A consultation with a gynecologist is usually recommended for all women who are not pregnant and have more than two months of missed menses.</dd>
+				  <dt id="1_6">6.  I have read the reasons that might prevent some women to have their period regularly. I don't find anything that it would stop me from having my period every moth yet I am irregular. I had the pills for 4 years in which since them I had my period every 28 days. Now I want to have children and the first month that I stopped the pills, I did not get my period. It there anything I can take or do to regularize my cycle?</dt>
+				    <dd>The first thing to understand about being on the pill is that it gives your body a fake menstrual cycle. If you had a history of being irregular before being on the pill, then it will probably be the same now after going off the pill. It also takes a few months (up to 6 months) to get all the pill effects and chemicals out of your body. So you need to be patient and you may need to consider getting some professional help to help your body cycle regularly. A good natural therpist of some sort (herbalist, naturopath, acupuncturist) who has experience with menstrual irregularity can prescribe medicines for you to help your body regain its natural rhythm. This would be the quickest way.</dd>
+				  <dt id="1_7">7.  I am 14 and I still don't have my period. I am very worried because my mom got hers when she was 11 and my older sister got hers when she was 12. I am very worried that something is wrong with me, like i am sterile or something! Is it possible that I could be a late bloomer even though my mom wasn't? </dt>
+				    <dd>14 is not that old not to have gotten your period, the normal range is from 11 - 17 years. Everybody is different - It is possible and perfectly normal that you could be a late bloomer even though your mum wasn't.
+
+Things like diet and exercise can affect when you get your period, for eg, if you diet alot or exercise excessively this can delay the arrival of your period.
+</dd>
+				</dl>
+				<h3 id="2">IS THEIR INFECTION / IRRETATION? KNOW ANSWERS </h3>
+				<ul class="section_menu">
+					<li><a href="#2_1">1. I've been getting recurrent yeast infections, usually after my period each month. Why is this happening, and what can I do?</a></li><br>
+					<li><a href="#2_2">2. Can yeast infections cause serious problems?</a></li> <br>
+					<li><a href="#2_3">3. What if I get yeast infections all the time?</a></li><br>
+					<li><a href="#2_4">4.What are the signs/symptoms of a yeast infection?</a></li>
+					
+				</ul>
+				<dl class="faq">
+				  <dt id="2_1">1. I've been getting recurrent yeast infections, usually after my period each month. Why is this happening, and what can I do?</dt>
+				    <dd>Yeast infections are caused by overgrowth of a fungus called Candida. The normal pH balance of the vagina keeps this naturally occurring yeast from multiplying. But if the acidity of the vagina changes for some reason, then yeast can grow -- triggering itchiness and a thick, white discharge.
+It's not uncommon to get yeast infections around your period because the pH balance of your vagina changes then. But it's possible that rather than developing a new infection each month, the previous infection was never resolved. Yeast infections are easily treated with over-the-counter medications or the prescription pill Diflucan and usually clear up in a week or less, but only if you finish the whole course of treatment. Just like any other infection, stopping treatment too early can allow bacteria to multiply again when conditions become favorable. So it's important to use the whole dose even if you start feeling better after a couple of days.
+</dd>
+				  <dt id="2_2">2. Can yeast infections cause serious problems?</dt>
+				    <dd>Yeast infections are not known to cause any serious health problems. However, the yeast infection itself can be very unpleasant, so you should get diagnosed and treated as soon as possible.</dd>
+				  <dt id="2_3">3. What if I get yeast infections all the time?</dt>
+				    <dd>Some women get yeast infections every month around the time of their menstrual periods. Your health care provider may tell you that you need to take medicine every month to prevent yeast infections. This is done to stop the symptoms from developing, or if you get a lot of infections you may be told that you need to take oral pills for up to 6 months. Never self-treat unless you’ve talked to your health care provider</dd>
+				  <dt id="2_4">4. What are the signs/symptoms of a yeast infection?</dt>
+				    <dd>The most common symptoms of a yeast infection are itching and vaginal discharge. The discharge is often thick, white and, curd-like (almost like cottage cheese). The discharge will be odorless. Other signs are burning, redness, and irritation of the vaginal area. Severe yeast infections may cause swelling of the labia (lips) outside of the vagina. Sometimes, women have pain when they pee as the urine passes over the sore tissues.</dt>
+				   </dl>
+				<h3 id="3">IREEGULARITY IN FLOW OF BLOOD</h3>
+				<ul class="section_menu">
+					<li><a href="#3_1">My flow during period is very scanty, what does it mean?</a></li><br>
+					<li><a href="#3_2">I have heavy bleeding. I have to change my pad every two hours. Is it ok?</a></li><br>
+					<li><a href="#3_3">I get periods every 15 days (instead of the normal 28 day cycle). What should I do?</a></li><br>
+					<li><a href="#3_4">How often should one change their sanitary pad?</a></li><br>
+					<li><a href="#3_5">I have infrequent, heavy and long lasting periods. What should I do?</a></li><br>
+					<li><a href="#3_6">I was wondering why lately my period has only been lasting like 2,3, or 4 days and not very heavy. I used to go a full 7 days and be heavy the first 4 days. I am 20 now and ever since i started, up until this year, it has changed. Do you know some possible reasons for this? Do you think I need to worry?</a></li><br>
+					<li><a href="#3_7">The blood on my pad doesn't look red but looks dark instead.</a></li><br>
+				</ul>
+				<dl class="faq">
+				  <dt id="3_1">My flow during period is very scanty, what does it mean?</dt>
+				    <dd>Be it regular or irregular, if your flow is scanty, you should get an ultrasound of the pelvis and go for blood test to know the exact cause of the condition. Also, there are high chances that you might be suffering from lack of estrogen, a hormone necessary to regulate your menstrual cycle. To rule out your risk of various health conditions, visit a doctor.</dd>
+				  <dt id="3_2">I have heavy bleeding. I have to change my pad every two hours. Is it ok?</dt>
+				    <dd>No, it is not a sign of a healthy individual. You should consult a gynaecologist and get your hormonal profile checked. In some cases, an ultrasound may be recommended. Although rare, genital tuberculosis is known to be the cause of heavy bleeding.</dd>
+				  <dt id="3_3">I get periods every 15 days (instead of the normal 28 day cycle). What should I do?</dt>
+				    <dd>If the blood flow is light, it can be controlled with the help of proper diet and iron pills. However, if the flow is heavy, an ultrasonography should be done to diagnose abnormalities in the ovaries or uterus. Also, a blood test might be recommended to detect bleeding disorders. This can be treated with the help of hormonal pills, however, it requires a detailed examination followed by several tests to rule out possible complications</dd>
+				  <dt id="3_4">How often should one change their sanitary pad?</dt>
+				    <dd>One should change their pads every six hours, and if you are using a tampon, then once every two hours. However, if you have heavy flow, you might have to change more often than those with scanty blood flow. And most important, there might be days when your pad is not used completely like during the last day of your periods, but make it a habit to change it at regular intervals to prevent infections. </dd>
+				  <dt id="3_5">I have infrequent, heavy and long lasting periods. What should I do?</dt>
+				    <dd>If you are overweight and have infrequent, irregular and long lasting periods, it signifies an increase in your blood levels of estrogen. Also, fat cells prevent ovaries from releasing the egg and on the other hand, the endometrial lining also thickens. If this has been going since a long time, you should visit a doctor to know your risk of suffering from are endometrial cancer.</dd>
+				  <dt id="3_6">I was wondering why lately my period has only been lasting like 2,3, or 4 days and not very heavy. I used to go a full 7 days and be heavy the first 4 days. I am 20 now and ever since i started, up until this year, it has changed. Do you know some possible reasons for this? Do you think I need to worry?</dt>
+				    <dd>No I don't think you need to worry, periods change, they change over time and from cycle to cycle - its just one of those things. However if you start to feel unusual pain, or some other feelings of something not being right see your doctor.</dt>
+				     <dt id="3_5">The blood on my pad doesn't look red but looks dark instead.</dt>
+				     <dd> You may get a little bit of dark brownish blood (that looks like chocolate) on your panties for a while after your first period. Menstrual flow that contains blood and the membrane lining from the uterus wall normally looks dark, unlike blood from an injury. But if your flow is bright red or if you see globs of blood that's slightly larger than a pickled plum, keep a close eye on your flow.</dd>
+				</dl>
+				<h3 id="4">EXCERSICES?</h3>
+				<ul class="section_menu">
+				<li><a href="#4_1">can exercise affect your menstrual cycle?</a></li><br>
+				<li><a href="#4_2">Are their benefits of exercising during your period. </a></li>
+				</ul>
+				<dl class="faq">
+				<dt id="4_1">can exercise affect your menstrual cycle?</dt>
+				<dd>Unfortunately, exercise can also have a negative effect on your period. ... Likewise, if your body fat percentage is much higher than the normal level for yourheight, periods can also stop. Exercise and body weight aren't the only things thatcan affect your cycle, and a missing period isn't a disease, it's a symptom.</dd>
+				<dt id="4_1">Are their benefits of exercising during your period.</dt>
+				<dd>•	Decrease the pain of cramps by releasing endorphins (the body's natural painkillers), increasing blood flow, and by loosening muscles 		  in your lower abdomen, back, and thighs.
+					•	Rid your body of excess water so you aren’t bloated.
+					•	Improve and stabilize your mood, making you less anxious, angry, or depressed.
+				</dd>
+				
+			</div>
+			<div id="sidebar">
+				<div id="sidebar_content">
+					<h3>Select Category</h3>
+					<ul class="section_menu">
+						<li><a href="#1">PERIODS IRREGULARITY</a></li><br>
+						<li><a href="#2">INFECTION / IRRETATION</a></li><br>
+						<li><a href="#3">IRREGULARITY IN FLOW OF BLOOD</a></li><br>
+						<li><a href="#4">EXCERSICE</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,73 @@
+body{
+
+	margin: 0;
+	padding:0;
+	background:url("image.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family:sans-serif;
+}
+.login-box{
+	width: 500px;
+	height:650px;
+	background: rgba(0.5,0,0,0.5);
+	color:#fff;
+	top:50%;
+	left:25%;
+	position:absoulte;
+	transform:translate(100%,20%);
+	box-sizing:border-box;
+	padding:20px 200px;
+	
+}
+
+.p1{
+	width:100px;
+	height:80px;
+	border-radius:70%;
+	position:top;
+	top:5px;
+	left:calc(100% - 100%);
+}
+h1{
+    margin:0;
+    padding:0 0 20px;
+    text-align:center;
+    font-size:22px;
+    }
+.login-box p{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+
+}
+.login-box input{
+    width:100%;
+    margin-bottom:20px;
+
+}
+.login-box input[type="text"], input[type="password"]
+{
+    border:none;
+    border-bottom:1px solid #fff;
+    background: transparent;
+    outline:none;
+    height:40px;
+    color:#fff;
+    font-size:16px;
+
+}
+/*Register Page*/
+.login-box1{
+	width: 550px;
+	height:750px;
+	background: rgba(0.5,0,0,0.5);
+	color:#fff;
+	top:50%;
+	left:25%;
+	position:absoulte;
+	transform:translate(90%,20%);
+	box-sizing:border-box;
+	padding:20px 50px;
+
+}
